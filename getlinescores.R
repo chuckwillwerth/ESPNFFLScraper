@@ -10,7 +10,7 @@ loginURL <- "http://games.espn.go.com/ffl/signin"
 user <- 'doubledown'
 pass <- 'starranger'
 nteams = 12
-nweeks = 3
+nweeks = 5
 setwd("C:/chuck/github/espnffl")
 nfltms = read.csv("NFLTeams.csv",header = TRUE)
 teams = data.frame(id = integer(), team = character())
@@ -24,7 +24,7 @@ teams = rbind(teams,data.frame(id = 7,team = "Now I'm Selling Cars N I know Y"))
 teams = rbind(teams,data.frame(id = 8,team = "Mr. Ambree Hinano!"))
 teams = rbind(teams,data.frame(id = 9,team = "Love in an Elevator"))
 teams = rbind(teams,data.frame(id = 10,team = "Marcy Project Freestylers"))
-teams = rbind(teams,data.frame(id = 11,team = "Team To Be Named Later"))
+teams = rbind(teams,data.frame(id = 11,team = "Home of Minitron"))
 teams = rbind(teams,data.frame(id = 12,team = "Tom Terrific"))
 write.csv(teams, file="fteams.csv")
 RSelenium::checkForServer()
@@ -38,7 +38,7 @@ webElem$sendKeysToElement(list(user))
 webElem <- remDr$findElement('name', 'password')
 webElem$sendKeysToElement(list(pass))
 remDr$findElement('name', 'submit')$clickElement()
-allLines = data.frame(week = integer(), team = integer(), Pos = character(), Player = character(), Pts = character())
+allLines = data.frame(week = integer(), team = integer(), Pos = character(), Player = character(), Pts = character(), Bye = integer())
 for (i in 1:nteams){
   for(j in 1:nweeks)
   {
@@ -63,20 +63,45 @@ for (i in 1:nteams){
     IR = subset(bench, bench$V1 == "IR")
     bench=subset(bench, bench$V1 == "Bench")
     
-    BN = data.frame(Pos = character(), Player = character(), Pts = character())
+    BN = data.frame(Pos = character(), Player = character(), Pts = character(), Bye = integer(), stringsAsFactors = FALSE)
     for (k in 1:nrow(bench))
     {
-      BN = rbind(BN,data.frame(Pos = "BN",Player = bench[k,2],Pts = bench[k,23]))
+      BN = rbind(BN,data.frame(Pos = "BN",Player = as.character(bench[k,2]),Pts = as.character(bench[k,23]), stringsAsFactors = FALSE))
     }
-    DefBench = tables[[6]]
-    DefBench = subset(DefBench, DefBench$V1 == "Bench")
-    if (nrow(DefBench) > 0)
+    if (tables[[6]][1,1] == "BENCH: KICKERS")
     {
-      for (k in 1:nrow(DefBench))
+      KBench = tables[[6]]
+      KBench = subset(KBench, KBench$V1 == "Bench")
+      if (nrow(KBench) > 0)
       {
-        BN = rbind(BN,data.frame(Pos = "BN",Player = gsub("\\sD/ST\\sD/ST","",DefBench[k,2]), Pts = DefBench[k,14]))
+        for (k in 1:nrow(KBench))
+        {
+          BN = rbind(BN, data.frame(Pos = "BN", Player = KBench[k,2], Pts = ifelse(is.na(KBench[k,12]),0,KBench[k,12]), stringsAsFactors = FALSE))
+        }
       }
+      DefBench = tables[[7]]
+      DefBench = subset(DefBench, DefBench$V1 == "Bench")
+      if (nrow(DefBench) > 0)
+      {
+        for (k in 1:nrow(DefBench))
+        {
+          BN = rbind(BN,data.frame(Pos = "BN",Player = gsub("\\sD/ST\\sD/ST","",DefBench[k,2]), Pts = ifelse(is.na(DefBench[k,14]),0,DefBench[k,14])))
+        }
+      }
+    }else {
+      KBench = NULL
+      DefBench = tables[[6]]
+      DefBench = subset(DefBench, DefBench$V1 == "Bench")
+      if (nrow(DefBench) > 0)
+      {
+        for (k in 1:nrow(DefBench))
+        {
+          BN = rbind(BN,data.frame(Pos = "BN",Player = gsub("\\sD/ST\\sD/ST","",DefBench[k,2]), Pts = ifelse(is.na(DefBench[k,14]),0,DefBench[k,14])))
+        }
+      }
+      
     }
+    
     
     if (!is.na(IR[1,2]))
     {
@@ -96,11 +121,17 @@ for (i in 1:nteams){
     #colnames(IR)= c("Pos","Player","Pts")
     
     lines = rbind(QB,RB1,RB2,WR1,WR2,TE,FLEX,K,DEF,BN,IR)
-    lines$Player = gsub("Ã,Â","",lines$Player)
+    lines$Player = gsub("([^a-zA-Z0-9\\s\\.,'/])"," ",lines$Player)
     lines$Pts = as.numeric(as.character(lines$Pts))
+    lines$Bye = 0
+    if (nrow(lines[is.na(lines$Pts),]) > 0)
+    {
+      lines[is.na(lines$Pts),]$Bye = 1
+      lines[is.na(lines$Pts),]$Pts = 0
+    }
     lines$week = j
     lines$team = i
-    if (tables[[6]][1,1] == "BENCH: TEAM D/ST")
+    if ((tables[[6]][1,1] == "BENCH: TEAM D/ST") | (tables[[6]][1,1] == "BENCH: KICKERS"))
     {
       lines$Opponent = gsub(" Box Score","",tables[[7]][1,1])
     }else {
@@ -111,16 +142,20 @@ for (i in 1:nteams){
     
   }
 }
+db = allLines
+allLines$Player = gsub("\\s*$","",allLines$Player)
 allLines$Player = gsub("Ã,Â","",allLines$Player)
 allLines$Player = gsub("Ã,Â","",allLines$Player)
 allLines$OppId = match(allLines$Opponent,teams$team)
 allLines$Player = gsub("\\sD/ST","",allLines$Player)
-allLines$NFLTeam = gsub("(.*), (.*)","\\2",allLines$Player)
-allLines$Player = gsub("(.*), (.*)","\\1",allLines$Player)
+allLines$NFLTeam = gsub("(.*), *(.*)","\\2",allLines$Player)
+allLines$Player = gsub("(.*), *(.*)","\\1",allLines$Player)
 allLines$Player = gsub("\\*$","",allLines$Player)
+allLines$Player = gsub("\\s*$","",allLines$Player)
 allLines$NFLTeam = gsub("\\s*(([QPDO])|(SSPD))$","",allLines$NFLTeam)
-allLines$NFLPos = gsub("^(.*)\\s(.*)$","\\2",allLines$NFLTeam)
-allLines$NFLTeam = gsub("^(.*)\\s(.*)$","\\1",allLines$NFLTeam)
+allLines$NFLPos = gsub("^(.*)\\s+(.*)$","\\2",allLines$NFLTeam)
+allLines$NFLTeam = gsub("^(.*)\\s+(.*)$","\\1",allLines$NFLTeam)
+allLines$NFLTeam = gsub("\\s*$","",allLines$NFLTeam)
 allLines[!is.na(match(allLines$NFLTeam, nfltms$TeamName)),]$NFLPos = "D/ST"
 allLines[!is.na(match(allLines$NFLTeam, nfltms$TeamName)),]$NFLTeam = as.character(nfltms[match(allLines[!is.na(match(allLines$NFLTeam,nfltms$TeamName)),]$NFLTeam,nfltms$TeamName),]$ID)
 allLines$Opponent = NULL

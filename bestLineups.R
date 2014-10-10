@@ -1,6 +1,7 @@
-setwd("c:/temp")
+setwd("C:/chuck/github/espnffl")
 allLines = read.csv("allLines.csv")
 teams = read.csv("fteams.csv")
+library(sqldf)
 nTeams = max(allLines$team, na.rm = TRUE)
 nWeeks = max(allLines$week, na.rm = TRUE)
 bestScores = data.frame(team = integer(), week = integer(), QB = integer(), RB1 = integer(), RB2 = integer(), WR1 = integer(), WR2 = integer(), TE = integer(), K = integer(), DEF = integer(), FLEX = integer(), TOTAL = integer())
@@ -39,7 +40,19 @@ for (i in 1:nTeams)
     
   }
 }
+weekScores$W = 0
+weekScores[weekScores$Pts > weekScores$OppPts,]$W = 1
+weekScores$L = 0
+weekScores[weekScores$Pts < weekScores$OppPts,]$L = 1
+weekScores$T = 0
+weekScores[weekScores$Pts == weekScores$OppPts,]$W = 1
 weekcalc = aggregate(x = weekScores, list(weekScores$team),sum)
-weekcalc$team = weekcalc$team / 2
+weekcalc$team = weekcalc$team / nWeeks
 weekcalc$PotentialCaptured = weekcalc$Pts/weekcalc$BestScore
 plot(weekcalc$PotentialCaptured ~ weekcalc$Pts)
+text(weekcalc$Pts+2, weekcalc$PotentialCaptured, weekcalc$team)
+ranks = sqldf("SELECT team, sum(Pts) Pts, sum(W) Wins, sum(L) Losses FROM weekScores GROUP BY team")
+ranks$score = ranks$Pts * (ranks$Wins / (ranks$Wins + ranks$Losses)) + ranks$Pts
+ranks$teamName = teams[match(ranks$team, teams$id),]$team
+r = ranks[,c(6,5,3,4,2)]
+r[order(-r$score),]
