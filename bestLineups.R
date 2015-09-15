@@ -45,7 +45,13 @@ weekScores[weekScores$Pts > weekScores$OppPts,]$W = 1
 weekScores$L = 0
 weekScores[weekScores$Pts < weekScores$OppPts,]$L = 1
 weekScores$T = 0
-weekScores[weekScores$Pts == weekScores$OppPts,]$W = 1
+weekScores[weekScores$Pts == weekScores$OppPts,]$T = 1
+weekScores$BSW = 0
+weekScores[weekScores$BestScore > weekScores$OppBestScore,]$BSW = 1
+weekScores$BSL = 0
+weekScores[weekScores$BestScore < weekScores$OppBestScore,]$BSL = 1
+weekScores$BST = 0
+weekScores[weekScores$BestScore == weekScores$OppBestScore,]$BST = 1
 weekcalc = aggregate(x = weekScores, list(weekScores$team),sum)
 weekcalc$team = weekcalc$team / nWeeks
 weekcalc$PotentialCaptured = weekcalc$Pts/weekcalc$BestScore

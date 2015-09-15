@@ -10,7 +10,7 @@ loginURL <- "http://games.espn.go.com/ffl/signin"
 user <- 'doubledown'
 pass <- 'starranger'
 nteams = 12
-nweeks = 5
+nweeks = 13
 setwd("C:/chuck/github/espnffl")
 nfltms = read.csv("NFLTeams.csv",header = TRUE)
 teams = data.frame(id = integer(), team = character())
@@ -21,9 +21,9 @@ teams = rbind(teams,data.frame(id = 4,team = "Quad Box"))
 teams = rbind(teams,data.frame(id = 5,team = "Wilfork Island"))
 teams = rbind(teams,data.frame(id = 6,team = "Boston Bobcatz"))
 teams = rbind(teams,data.frame(id = 7,team = "Now I'm Selling Cars N I know Y"))
-teams = rbind(teams,data.frame(id = 8,team = "Mr. Ambree Hinano!"))
+teams = rbind(teams,data.frame(id = 8,team = "Dynasty! !"))
 teams = rbind(teams,data.frame(id = 9,team = "Love in an Elevator"))
-teams = rbind(teams,data.frame(id = 10,team = "Marcy Project Freestylers"))
+teams = rbind(teams,data.frame(id = 10,team = "Richmond Confederates"))
 teams = rbind(teams,data.frame(id = 11,team = "Home of Minitron"))
 teams = rbind(teams,data.frame(id = 12,team = "Tom Terrific"))
 write.csv(teams, file="fteams.csv")
@@ -158,7 +158,7 @@ allLines$NFLTeam = gsub("^(.*)\\s+(.*)$","\\1",allLines$NFLTeam)
 allLines$NFLTeam = gsub("\\s*$","",allLines$NFLTeam)
 allLines[!is.na(match(allLines$NFLTeam, nfltms$TeamName)),]$NFLPos = "D/ST"
 allLines[!is.na(match(allLines$NFLTeam, nfltms$TeamName)),]$NFLTeam = as.character(nfltms[match(allLines[!is.na(match(allLines$NFLTeam,nfltms$TeamName)),]$NFLTeam,nfltms$TeamName),]$ID)
-allLines$Opponent = NULL
+#allLines$Opponent = NULL
 write.csv(allLines, file="allLines.csv")
 # now operate on pageSrc using for example library(XML) etc
 # readHTMLTable(pageSrc) # for example
