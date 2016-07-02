@@ -1,11 +1,10 @@
-#setwd("C:/Users/Charles.Willwerth/OneDrive for Business/GitHubChuckWillwerth/ESPNFFLScraper")
-setwd("C:/Users/ChuckAndCatherine/OneDrive for Business/GitHubChuckWillwerth/ESPNFFLScraper")
+setwd("C:/Users/Charles.Willwerth/OneDrive for Business/GitHubChuckWillwerth/ESPNFFLScraper")
 allLines = read.csv("allLines.csv")
 teams = read.csv("fteams.csv")
 library(sqldf)
 nTeams = max(allLines$team, na.rm = TRUE)
 nWeeks = max(allLines$week, na.rm = TRUE)
-bestScores = data.frames(team = integer(), week = integer(), QB = integer(), RB1 = integer(), RB2 = integer(), WR1 = integer(), WR2 = integer(), TE = integer(), K = integer(), DEF = integer(), FLEX = integer(), TOTAL = integer())
+bestScores = data.frame(team = integer(), week = integer(), QB = integer(), RB1 = integer(), RB2 = integer(), WR1 = integer(), WR2 = integer(), TE = integer(), K = integer(), DEF = integer(), FLEX = integer(), TOTAL = integer())
 weekScores = data.frame(team = integer(), week = integer(), opponent = integer(), Pts = integer(), OppPts = integer(), ifW = integer(), ifL = integer(), ifT = integer())
 for (i in 1:nTeams)
 {
@@ -101,10 +100,10 @@ text(weekcalc$Pts+2, weekcalc$Best, weekcalc$team)
 lines(c(min(r$Pts),max(r$Pts)),c(min(r$Best),max(r$Best)))
 ifsAndButs = sqldf("SELECT team, sum(ifW) ifW, sum(ifL) ifL, sum(ifT) ifT, sum(pwrW) pwrW, sum(pwrL) pwrL, sum(pwrT) pwrT, sum(Str) Str FROM weekScores GROUP BY team")
 ifsAndButs$team = teams[match(ifsAndButs$team, teams$id),]$team
-ifsAndButs$Pct =    (ifsAndButs$ifW  + (ifsAndButs$ifT / 2))/  (ifsAndButs$ifW +  ifsAndButs$ifL +  ifsAndButs$ifT)
+ifsAndButs$Pct = (ifsAndButs$ifW  + (ifsAndButs$ifT / 2))/  (ifsAndButs$ifW +  ifsAndButs$ifL +  ifsAndButs$ifT)
 ifsAndButs$PwrPct = (ifsAndButs$pwrW + (ifsAndButs$pwrT / 2))/ (ifsAndButs$pwrW + ifsAndButs$pwrL + ifsAndButs$pwrT)
 
 ifsAndButs[order(-ifsAndButs$Str),]
-write.csv(ifsAndButs[order(-ifsAndButs$Str),],"rankings.csv")
+write.csv(ifsAndButs[order(-ifsAndButs$PwrPct),],"rankings.csv")
 
 

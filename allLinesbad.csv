@@ -1,0 +1,385 @@
+I,Pos,Player,Pts,Bye,week,team,Opponent,OppId,NFLTeam,NFLPos
+1,QB,Philip Rivers,0,1,1,1,Love in an Elevator,9,SD,QB
+2,RB,Jamaal Charles,0,1,1,1,Love in an Elevator,9,KC,RB
+3,RB,Alfred Morris,0,1,1,1,Love in an Elevator,9,Wsh,RB
+4,WR,Alshon Jeffery,0,1,1,1,Love in an Elevator,9,Chi,WR
+5,WR,Markus Wheaton,0,1,1,1,Love in an Elevator,9,Pit,WR
+6,TE,Martellus Bennett,0,1,1,1,Love in an Elevator,9,Chi,TE
+7,FLEX,Andre Ellington,0,1,1,1,Love in an Elevator,9,Ari,RB
+8,K,Brandon McManus,18,0,1,1,Love in an Elevator,9,Den,K
+9,D/ST,Texans,1,0,1,1,Love in an Elevator,9,Hou,D/ST
+10,BN,Duke Johnson Jr.,0,1,1,1,Love in an Elevator,9,Cle,RB
+11,BN,Tevin Coleman,0,1,1,1,Love in an Elevator,9,Atl,RB
+12,BN,Kendall Wright,0,1,1,1,Love in an Elevator,9,Ten,WR
+13,BN,Pierre Garcon,0,1,1,1,Love in an Elevator,9,Wsh,WR
+14,BN,Marcus Mariota,0,1,1,1,Love in an Elevator,9,Ten,QB
+15,BN,Terrance West,0,1,1,1,Love in an Elevator,9,Ten,RB
+16,IR,Breshad Perriman,0,1,1,1,Love in an Elevator,9,Bal,WR
+17,QB,Philip Rivers,0,1,2,1,Boston Bobcatz,6,SD,QB
+18,RB,Jamaal Charles,0,1,2,1,Boston Bobcatz,6,KC,RB
+19,RB,Alfred Morris,0,1,2,1,Boston Bobcatz,6,Wsh,RB
+20,WR,Markus Wheaton,0,1,2,1,Boston Bobcatz,6,Pit,WR
+21,WR,Kendall Wright,0,1,2,1,Boston Bobcatz,6,Ten,WR
+22,TE,Martellus Bennett,0,1,2,1,Boston Bobcatz,6,Chi,TE
+23,FLEX,Tevin Coleman,0,1,2,1,Boston Bobcatz,6,Atl,RB
+24,K,Brandon McManus,9,0,2,1,Boston Bobcatz,6,Den,K
+25,D/ST,Texans,5,0,2,1,Boston Bobcatz,6,Hou,D/ST
+26,BN,Alshon Jeffery,0,1,2,1,Boston Bobcatz,6,Chi,WR
+27,BN,Andre Ellington,0,1,2,1,Boston Bobcatz,6,Ari,RB
+28,BN,Duke Johnson Jr.,0,1,2,1,Boston Bobcatz,6,Cle,RB
+29,BN,Pierre Garcon,0,1,2,1,Boston Bobcatz,6,Wsh,WR
+30,BN,Marcus Mariota,0,1,2,1,Boston Bobcatz,6,Ten,QB
+31,BN,Brandon Coleman,0,1,2,1,Boston Bobcatz,6,NO,WR
+32,IR,Breshad Perriman,0,1,2,1,Boston Bobcatz,6,Bal,WR
+33,QB,Eli Manning,0,1,1,2,+/- 1 PSI,11,NYG,QB
+34,RB,LeSean McCoy,0,1,1,2,+/- 1 PSI,11,Buf,RB
+35,RB,Jonathan Stewart,0,1,1,2,+/- 1 PSI,11,Car,RB
+36,WR,Jordan Matthews,0,1,1,2,+/- 1 PSI,11,Phi,WR
+37,WR,Randall Cobb,0,1,1,2,+/- 1 PSI,11,GB,WR
+38,TE,Owen Daniels,0,1,1,2,+/- 1 PSI,11,Den,TE
+39,FLEX,Latavius Murray,0,1,1,2,+/- 1 PSI,11,Oak,RB
+40,K,Kyle Brindza,2,0,1,2,+/- 1 PSI,11,TB,K
+41,D/ST,Buccaneers,-3,0,1,2,+/- 1 PSI,11,TB,D/ST
+42,BN,Steve Smith Sr.,0,1,1,2,+/- 1 PSI,11,Bal,WR
+43,BN,DeSean Jackson,0,1,1,2,+/- 1 PSI,11,Wsh,WR
+44,BN,Alfred Blue,0,1,1,2,+/- 1 PSI,11,Hou,RB
+45,BN,Kirk Cousins,0,1,1,2,+/- 1 PSI,11,Wsh,QB
+46,BN,Darren Sproles,0,1,1,2,+/- 1 PSI,11,Phi,RB
+47,BN,Brian Quick,0,1,1,2,+/- 1 PSI,11,StL,WR
+48,IR,,0,1,1,2,+/- 1 PSI,11,,
+49,QB,Eli Manning,0,1,2,2,Tom Terrific,12,NYG,QB
+50,RB,LeSean McCoy,0,1,2,2,Tom Terrific,12,Buf,RB
+51,RB,Latavius Murray,0,1,2,2,Tom Terrific,12,Oak,RB
+52,WR,Jordan Matthews,0,1,2,2,Tom Terrific,12,Phi,WR
+53,WR,Randall Cobb,0,1,2,2,Tom Terrific,12,GB,WR
+54,TE,Owen Daniels,0,1,2,2,Tom Terrific,12,Den,TE
+55,FLEX,Darren Sproles,0,1,2,2,Tom Terrific,12,Phi,RB
+56,K,Robbie Gould,14,0,2,2,Tom Terrific,12,Chi,K
+57,D/ST,Saints,6,0,2,2,Tom Terrific,12,NO,D/ST
+58,BN,Steve Smith Sr.,0,1,2,2,Tom Terrific,12,Bal,WR
+59,BN,Jonathan Stewart,0,1,2,2,Tom Terrific,12,Car,RB
+60,BN,Alfred Blue,0,1,2,2,Tom Terrific,12,Hou,RB
+61,BN,Brian Quick,0,1,2,2,Tom Terrific,12,StL,WR
+62,BN,Nick Foles,0,1,2,2,Tom Terrific,12,StL,QB
+63,BN,Jordan Reed,0,1,2,2,Tom Terrific,12,Wsh,TE
+64,IR,DeSean Jackson,0,1,2,2,Tom Terrific,12,Wsh,WR
+65,QB,Ben Roethlisberger,0,1,1,3,Wilfork Island,5,Pit,QB
+66,RB,Justin Forsett,0,1,1,3,Wilfork Island,5,Bal,RB
+67,RB,T.J. Yeldon,0,1,1,3,Wilfork Island,5,Jac,RB
+68,WR,Brandin Cooks,0,1,1,3,Wilfork Island,5,NO,WR
+69,WR,Brandon Marshall,0,1,1,3,Wilfork Island,5,NYJ,WR
+70,TE,Travis Kelce,0,1,1,3,Wilfork Island,5,KC,TE
+71,FLEX,Jarvis Landry,0,1,1,3,Wilfork Island,5,Mia,WR
+72,K,Stephen Gostkowski,4,0,1,3,Wilfork Island,5,NE,K
+73,D/ST,Ravens,12,0,1,3,Wilfork Island,5,Bal,D/ST
+74,BN,Cam Newton,0,1,1,3,Wilfork Island,5,Car,QB
+75,BN,Arian Foster,0,1,1,3,Wilfork Island,5,Hou,RB
+76,BN,Joique Bell,0,1,1,3,Wilfork Island,5,Det,RB
+77,BN,LeGarrette Blount,0,1,1,3,Wilfork Island,5,NE,RB
+78,BN,Todd Gurley,0,1,1,3,Wilfork Island,5,StL,RB
+79,BN,Victor Cruz,0,1,1,3,Wilfork Island,5,NYG,WR
+80,IR,,0,1,1,3,Wilfork Island,5,,
+81,QB,Ben Roethlisberger,0,1,2,3,Love in an Elevator,9,Pit,QB
+82,RB,Justin Forsett,0,1,2,3,Love in an Elevator,9,Bal,RB
+83,RB,T.J. Yeldon,0,1,2,3,Love in an Elevator,9,Jac,RB
+84,WR,Brandin Cooks,0,1,2,3,Love in an Elevator,9,NO,WR
+85,WR,Jarvis Landry,0,1,2,3,Love in an Elevator,9,Mia,WR
+86,TE,Travis Kelce,0,1,2,3,Love in an Elevator,9,KC,TE
+87,FLEX,Brandon Marshall,0,1,2,3,Love in an Elevator,9,NYJ,WR
+88,K,Stephen Gostkowski,19,0,2,3,Love in an Elevator,9,NE,K
+89,D/ST,Ravens,-4,0,2,3,Love in an Elevator,9,Bal,D/ST
+90,BN,Cam Newton,0,1,2,3,Love in an Elevator,9,Car,QB
+91,BN,Arian Foster,0,1,2,3,Love in an Elevator,9,Hou,RB
+92,BN,Joique Bell,0,1,2,3,Love in an Elevator,9,Det,RB
+93,BN,LeGarrette Blount,0,1,2,3,Love in an Elevator,9,NE,RB
+94,BN,Todd Gurley,0,1,2,3,Love in an Elevator,9,StL,RB
+95,BN,David Johnson,0,1,2,3,Love in an Elevator,9,Ari,RB
+96,IR,,0,1,2,3,Love in an Elevator,9,,
+97,QB,Carson Palmer,0,1,1,4,Tom Terrific,12,Ari,QB
+98,RB,Adrian Peterson,0,1,1,4,Tom Terrific,12,Min,RB
+99,RB,DeAngelo Williams,0,1,1,4,Tom Terrific,12,Pit,RB
+100,WR,Dez Bryant,0,1,1,4,Tom Terrific,12,Dal,WR
+101,WR,Demaryius Thomas,0,1,1,4,Tom Terrific,12,Den,WR
+102,TE,Charles Clay,0,1,1,4,Tom Terrific,12,Buf,TE
+103,FLEX,A.J. Green,0,1,1,4,Tom Terrific,12,Cin,WR
+104,K,Steven Hauschka,11,0,1,4,Tom Terrific,12,Sea,K
+105,D/ST,Browns,-2,0,1,4,Tom Terrific,12,Cle,D/ST
+106,BN,Knile Davis,0,1,1,4,Tom Terrific,12,KC,RB
+107,BN,Brandon Bolden,0,1,1,4,Tom Terrific,12,NE,RB
+108,BN,Josh Robinson,0,1,1,4,Tom Terrific,12,Ind,RB
+109,BN,Marvin Jones,0,1,1,4,Tom Terrific,12,Cin,WR
+110,BN,Colin Kaepernick,0,1,1,4,Tom Terrific,12,SF,QB
+111,BN,Malcom Floyd,0,1,1,4,Tom Terrific,12,SD,WR
+112,IR,,0,1,1,4,Tom Terrific,12,,
+113,QB,Carson Palmer,0,1,2,4,Richmond Confederates,10,Ari,QB
+114,RB,Adrian Peterson,0,1,2,4,Richmond Confederates,10,Min,RB
+115,RB,DeAngelo Williams,0,1,2,4,Richmond Confederates,10,Pit,RB
+116,WR,Demaryius Thomas,0,1,2,4,Richmond Confederates,10,Den,WR
+117,WR,Donte Moncrief,0,1,2,4,Richmond Confederates,10,Ind,WR
+118,TE,Charles Clay,0,1,2,4,Richmond Confederates,10,Buf,TE
+119,FLEX,A.J. Green,0,1,2,4,Richmond Confederates,10,Cin,WR
+120,K,Steven Hauschka,7,0,2,4,Richmond Confederates,10,Sea,K
+121,D/ST,Titans,-2,0,2,4,Richmond Confederates,10,Ten,D/ST
+122,BN,Knile Davis,0,1,2,4,Richmond Confederates,10,KC,RB
+123,BN,Marvin Jones,0,1,2,4,Richmond Confederates,10,Cin,WR
+124,BN,Malcom Floyd,0,1,2,4,Richmond Confederates,10,SD,WR
+125,BN,Chris Johnson,0,1,2,4,Richmond Confederates,10,Ari,RB
+126,BN,Stevie Johnson,0,1,2,4,Richmond Confederates,10,SD,WR
+127,BN,Percy Harvin,0,1,2,4,Richmond Confederates,10,Buf,WR
+128,IR,Dez Bryant,0,1,2,4,Richmond Confederates,10,Dal,WR
+129,QB,Russell Wilson,0,1,1,5,Coffin Corner Gunners,3,Sea,QB
+130,RB,Eddie Lacy,0,1,1,5,Coffin Corner Gunners,3,GB,RB
+131,RB,Ameer Abdullah,0,1,1,5,Coffin Corner Gunners,3,Det,RB
+132,WR,Davante Adams,0,1,1,5,Coffin Corner Gunners,3,GB,WR
+133,WR,Andre Johnson,0,1,1,5,Coffin Corner Gunners,3,Ind,WR
+134,TE,Rob Gronkowski,0,1,1,5,Coffin Corner Gunners,3,NE,TE
+135,FLEX,Larry Fitzgerald,0,1,1,5,Coffin Corner Gunners,3,Ari,WR
+136,K,Dan Bailey,9,0,1,5,Coffin Corner Gunners,3,Dal,K
+137,D/ST,Dolphins,15,0,1,5,Coffin Corner Gunners,3,Mia,D/ST
+138,BN,Benjamin Watson,0,1,1,5,Coffin Corner Gunners,3,NO,TE
+139,BN,Martavis Bryant,0,1,1,5,Coffin Corner Gunners,3,Pit,WR
+140,BN,Cody Latimer,0,1,1,5,Coffin Corner Gunners,3,Den,WR
+141,BN,John Brown,0,1,1,5,Coffin Corner Gunners,3,Ari,WR
+142,BN,Andre Williams,0,1,1,5,Coffin Corner Gunners,3,NYG,RB
+143,BN,Matt Jones,0,1,1,5,Coffin Corner Gunners,3,Wsh,RB
+144,IR,,0,1,1,5,Coffin Corner Gunners,3,,
+145,QB,Russell Wilson,0,1,2,5,"Screw you,  Goodell",7,Sea,QB
+146,RB,Eddie Lacy,0,1,2,5,"Screw you,  Goodell",7,GB,RB
+147,RB,Ameer Abdullah,0,1,2,5,"Screw you,  Goodell",7,Det,RB
+148,WR,Davante Adams,0,1,2,5,"Screw you,  Goodell",7,GB,WR
+149,WR,John Brown,0,1,2,5,"Screw you,  Goodell",7,Ari,WR
+150,TE,Rob Gronkowski,0,1,2,5,"Screw you,  Goodell",7,NE,TE
+151,FLEX,Larry Fitzgerald,0,1,2,5,"Screw you,  Goodell",7,Ari,WR
+152,K,Dan Bailey,8,0,2,5,"Screw you,  Goodell",7,Dal,K
+153,D/ST,Dolphins,-1,0,2,5,"Screw you,  Goodell",7,Mia,D/ST
+154,BN,Andre Johnson,0,1,2,5,"Screw you,  Goodell",7,Ind,WR
+155,BN,Martavis Bryant,0,1,2,5,"Screw you,  Goodell",7,Pit,WR
+156,BN,Andre Williams,0,1,2,5,"Screw you,  Goodell",7,NYG,RB
+157,BN,Matt Jones,0,1,2,5,"Screw you,  Goodell",7,Wsh,RB
+158,BN,Ladarius Green,0,1,2,5,"Screw you,  Goodell",7,SD,TE
+159,BN,Benjamin Cunningham,0,1,2,5,"Screw you,  Goodell",7,StL,RB
+160,IR,,0,1,2,5,"Screw you,  Goodell",7,,
+161,QB,Matt Ryan,0,1,1,6,"Screw you,  Goodell",7,Atl,QB
+162,RB,Jeremy Hill,0,1,1,6,"Screw you,  Goodell",7,Cin,RB
+163,RB,Frank Gore,0,1,1,6,"Screw you,  Goodell",7,Ind,RB
+164,WR,Julio Jones,0,1,1,6,"Screw you,  Goodell",7,Atl,WR
+165,WR,Amari Cooper,0,1,1,6,"Screw you,  Goodell",7,Oak,WR
+166,TE,Delanie Walker,0,1,1,6,"Screw you,  Goodell",7,Ten,TE
+167,FLEX,Doug Martin,0,1,1,6,"Screw you,  Goodell",7,TB,RB
+168,K,Greg Zuerlein,10,0,1,6,"Screw you,  Goodell",7,StL,K
+169,D/ST,Packers,3,0,1,6,"Screw you,  Goodell",7,GB,D/ST
+170,BN,Teddy Bridgewater,0,1,1,6,"Screw you,  Goodell",7,Min,QB
+171,BN,Ronnie Hillman,0,1,1,6,"Screw you,  Goodell",7,Den,RB
+172,BN,Tyler Lockett,0,1,1,6,"Screw you,  Goodell",7,Sea,WR
+173,BN,DeVante Parker,0,1,1,6,"Screw you,  Goodell",7,Mia,WR
+174,BN,James Jones,0,1,1,6,"Screw you,  Goodell",7,GB,WR
+175,BN,Bengals,1,0,1,6,"Screw you,  Goodell",7,Cin,D/ST
+176,IR,Julius Thomas,0,1,1,6,"Screw you,  Goodell",7,Jac,TE
+177,QB,Matt Ryan,0,1,2,6,The Peasemakers,1,Atl,QB
+178,RB,Jeremy Hill,0,1,2,6,The Peasemakers,1,Cin,RB
+179,RB,Frank Gore,0,1,2,6,The Peasemakers,1,Ind,RB
+180,WR,Julio Jones,0,1,2,6,The Peasemakers,1,Atl,WR
+181,WR,James Jones,0,1,2,6,The Peasemakers,1,GB,WR
+182,TE,Heath Miller,0,1,2,6,The Peasemakers,1,Pit,TE
+183,FLEX,Doug Martin,0,1,2,6,The Peasemakers,1,TB,RB
+184,K,Greg Zuerlein,6,0,2,6,The Peasemakers,1,StL,K
+185,D/ST,Panthers,4,0,2,6,The Peasemakers,1,Car,D/ST
+186,BN,Teddy Bridgewater,0,1,2,6,The Peasemakers,1,Min,QB
+187,BN,Delanie Walker,0,1,2,6,The Peasemakers,1,Ten,TE
+188,BN,Amari Cooper,0,1,2,6,The Peasemakers,1,Oak,WR
+189,BN,Ronnie Hillman,0,1,2,6,The Peasemakers,1,Den,RB
+190,BN,DeVante Parker,0,1,2,6,The Peasemakers,1,Mia,WR
+191,BN,Jets,1,0,2,6,The Peasemakers,1,NYJ,D/ST
+192,IR,Julius Thomas,0,1,2,6,The Peasemakers,1,Jac,TE
+193,QB,Tom Brady,0,1,1,7,Boston Bobcatz,6,NE,QB
+194,RB,C.J. Anderson,0,1,1,7,Boston Bobcatz,6,Den,RB
+195,RB,Melvin Gordon,0,1,1,7,Boston Bobcatz,6,SD,RB
+196,WR,Odell Beckham Jr.,0,1,1,7,Boston Bobcatz,6,NYG,WR
+197,WR,DeAndre Hopkins,0,1,1,7,Boston Bobcatz,6,Hou,WR
+198,TE,Zach Ertz,0,1,1,7,Boston Bobcatz,6,Phi,TE
+199,FLEX,Roddy White,0,1,1,7,Boston Bobcatz,6,Atl,WR
+200,K,Mason Crosby,7,0,1,7,Boston Bobcatz,6,GB,K
+201,D/ST,Cardinals,4,0,1,7,Boston Bobcatz,6,Ari,D/ST
+202,BN,Giovani Bernard,0,1,1,7,Boston Bobcatz,6,Cin,RB
+203,BN,Matthew Stafford,0,1,1,7,Boston Bobcatz,6,Det,QB
+204,BN,Darren McFadden,0,1,1,7,Boston Bobcatz,6,Dal,RB
+205,BN,Danny Amendola,0,1,1,7,Boston Bobcatz,6,NE,WR
+206,BN,,0,1,1,7,Boston Bobcatz,6,,
+207,BN,Bills,1,0,1,7,Boston Bobcatz,6,Buf,D/ST
+208,IR,Brandon LaFell,0,1,1,7,Boston Bobcatz,6,NE,WR
+209,QB,Tom Brady,0,1,2,7,Wilfork Island,5,NE,QB
+210,RB,C.J. Anderson,0,1,2,7,Wilfork Island,5,Den,RB
+211,RB,Melvin Gordon,0,1,2,7,Wilfork Island,5,SD,RB
+212,WR,Odell Beckham Jr.,0,1,2,7,Wilfork Island,5,NYG,WR
+213,WR,DeAndre Hopkins,0,1,2,7,Wilfork Island,5,Hou,WR
+214,TE,Zach Ertz,0,1,2,7,Wilfork Island,5,Phi,TE
+215,FLEX,Roddy White,0,1,2,7,Wilfork Island,5,Atl,WR
+216,K,Mason Crosby,16,0,2,7,Wilfork Island,5,GB,K
+217,D/ST,Cardinals,17,0,2,7,Wilfork Island,5,Ari,D/ST
+218,BN,Giovani Bernard,0,1,2,7,Wilfork Island,5,Cin,RB
+219,BN,Matthew Stafford,0,1,2,7,Wilfork Island,5,Det,QB
+220,BN,Darren McFadden,0,1,2,7,Wilfork Island,5,Dal,RB
+221,BN,Danny Amendola,0,1,2,7,Wilfork Island,5,NE,WR
+222,BN,Scott Chandler,0,1,2,7,Wilfork Island,5,NE,TE
+223,BN,Bills,1,0,2,7,Wilfork Island,5,Buf,D/ST
+224,IR,Brandon LaFell,0,1,2,7,Wilfork Island,5,NE,WR
+225,QB,Sam Bradford,0,1,1,8,Richmond Confederates,10,Phi,QB
+226,RB,Mark Ingram,0,1,1,8,Richmond Confederates,10,NO,RB
+227,RB,Lamar Miller,0,1,1,8,Richmond Confederates,10,Mia,RB
+228,WR,Golden Tate,0,1,1,8,Richmond Confederates,10,Det,WR
+229,WR,Jeremy Maclin,0,1,1,8,Richmond Confederates,10,KC,WR
+230,TE,Greg Olsen,0,1,1,8,Richmond Confederates,10,Car,TE
+231,FLEX,Rashad Jennings,0,1,1,8,Richmond Confederates,10,NYG,RB
+232,K,Matt Bryant,17,0,1,8,Richmond Confederates,10,Atl,K
+233,D/ST,Jets,17,0,1,8,Richmond Confederates,10,NYJ,D/ST
+234,BN,Isaiah Crowell,0,1,1,8,Richmond Confederates,10,Cle,RB
+235,BN,Ryan Tannehill,0,1,1,8,Richmond Confederates,10,Mia,QB
+236,BN,Bishop Sankey,0,1,1,8,Richmond Confederates,10,Ten,RB
+237,BN,Nelson Agholor,0,1,1,8,Richmond Confederates,10,Phi,WR
+238,BN,Charles Johnson,0,1,1,8,Richmond Confederates,10,Min,WR
+239,BN,Antonio Gates,0,1,1,8,Richmond Confederates,10,SD,TE
+240,IR,,0,1,1,8,Richmond Confederates,10,,
+241,QB,Sam Bradford,0,1,2,8,+/- 1 PSI,11,Phi,QB
+242,RB,Mark Ingram,0,1,2,8,+/- 1 PSI,11,NO,RB
+243,RB,Lamar Miller,0,1,2,8,+/- 1 PSI,11,Mia,RB
+244,WR,Golden Tate,0,1,2,8,+/- 1 PSI,11,Det,WR
+245,WR,Jeremy Maclin,0,1,2,8,+/- 1 PSI,11,KC,WR
+246,TE,Greg Olsen,0,1,2,8,+/- 1 PSI,11,Car,TE
+247,FLEX,Rashad Jennings,0,1,2,8,+/- 1 PSI,11,NYG,RB
+248,K,Matt Bryant,7,0,2,8,+/- 1 PSI,11,Atl,K
+249,D/ST,Broncos,20,0,2,8,+/- 1 PSI,11,Den,D/ST
+250,BN,Isaiah Crowell,0,1,2,8,+/- 1 PSI,11,Cle,RB
+251,BN,Ryan Tannehill,0,1,2,8,+/- 1 PSI,11,Mia,QB
+252,BN,Bishop Sankey,0,1,2,8,+/- 1 PSI,11,Ten,RB
+253,BN,Nelson Agholor,0,1,2,8,+/- 1 PSI,11,Phi,WR
+254,BN,Charles Johnson,0,1,2,8,+/- 1 PSI,11,Min,WR
+255,BN,Antonio Gates,0,1,2,8,+/- 1 PSI,11,SD,TE
+256,IR,,0,1,2,8,+/- 1 PSI,11,,
+257,QB,Aaron Rodgers,0,1,1,9,The Peasemakers,1,GB,QB
+258,RB,Marshawn Lynch,0,1,1,9,The Peasemakers,1,Sea,RB
+259,RB,Joseph Randle,0,1,1,9,The Peasemakers,1,Dal,RB
+260,WR,T.Y. Hilton,0,1,1,9,The Peasemakers,1,Ind,WR
+261,WR,Keenan Allen,0,1,1,9,The Peasemakers,1,SD,WR
+262,TE,Jordan Cameron,0,1,1,9,The Peasemakers,1,Mia,TE
+263,FLEX,Chris Ivory,0,1,1,9,The Peasemakers,1,NYJ,RB
+264,K,Adam Vinatieri,-1,0,1,9,The Peasemakers,1,Ind,K
+265,D/ST,Rams,10,0,1,9,The Peasemakers,1,StL,D/ST
+266,BN,Michael Floyd,0,1,1,9,The Peasemakers,1,Ari,WR
+267,BN,Devin Funchess,0,1,1,9,The Peasemakers,1,Car,WR
+268,BN,Michael Crabtree,0,1,1,9,The Peasemakers,1,Oak,WR
+269,BN,Austin Seferian Jenkins,0,1,1,9,The Peasemakers,1,TB,TE
+270,BN,Alex Smith,0,1,1,9,The Peasemakers,1,KC,QB
+271,BN,Chandler Catanzaro,1,0,1,9,The Peasemakers,1,Ari,K
+272,IR,,0,1,1,9,The Peasemakers,1,,
+273,QB,Aaron Rodgers,0,1,2,9,Coffin Corner Gunners,3,GB,QB
+274,RB,Marshawn Lynch,0,1,2,9,Coffin Corner Gunners,3,Sea,RB
+275,RB,Joseph Randle,0,1,2,9,Coffin Corner Gunners,3,Dal,RB
+276,WR,Keenan Allen,0,1,2,9,Coffin Corner Gunners,3,SD,WR
+277,WR,Michael Floyd,0,1,2,9,Coffin Corner Gunners,3,Ari,WR
+278,TE,Jordan Cameron,0,1,2,9,Coffin Corner Gunners,3,Mia,TE
+279,FLEX,Chris Ivory,0,1,2,9,Coffin Corner Gunners,3,NYJ,RB
+280,K,Adam Vinatieri,0,0,2,9,Coffin Corner Gunners,3,Ind,K
+281,D/ST,Rams,3,0,2,9,Coffin Corner Gunners,3,StL,D/ST
+282,BN,T.Y. Hilton,0,1,2,9,Coffin Corner Gunners,3,Ind,WR
+283,BN,Devin Funchess,0,1,2,9,Coffin Corner Gunners,3,Car,WR
+284,BN,Michael Crabtree,0,1,2,9,Coffin Corner Gunners,3,Oak,WR
+285,BN,Austin Seferian Jenkins,0,1,2,9,Coffin Corner Gunners,3,TB,TE
+286,BN,Alex Smith,0,1,2,9,Coffin Corner Gunners,3,KC,QB
+287,BN,Chandler Catanzaro,1,0,2,9,Coffin Corner Gunners,3,Ari,K
+288,IR,,0,1,2,9,Coffin Corner Gunners,3,,
+289,QB,Peyton Manning,0,1,1,10,Down w/the Confederacaaaa!,8,Den,QB
+290,RB,DeMarco Murray,0,1,1,10,Down w/the Confederacaaaa!,8,Phi,RB
+291,RB,Ryan Mathews,0,1,1,10,Down w/the Confederacaaaa!,8,Phi,RB
+292,WR,Antonio Brown,0,1,1,10,Down w/the Confederacaaaa!,8,Pit,WR
+293,WR,Julian Edelman,0,1,1,10,Down w/the Confederacaaaa!,8,NE,WR
+294,TE,Jason Witten,0,1,1,10,Down w/the Confederacaaaa!,8,Dal,TE
+295,FLEX,Terrance Williams,0,1,1,10,Down w/the Confederacaaaa!,8,Dal,WR
+296,K,Matt Prater,4,0,1,10,Down w/the Confederacaaaa!,8,Det,K
+297,D/ST,Patriots,5,0,1,10,Down w/the Confederacaaaa!,8,NE,D/ST
+298,BN,Mike Wallace,0,1,1,10,Down w/the Confederacaaaa!,8,Min,WR
+299,BN,Sammy Watkins,0,1,1,10,Down w/the Confederacaaaa!,8,Buf,WR
+300,BN,Marques Colston,0,1,1,10,Down w/the Confederacaaaa!,8,NO,WR
+301,BN,Danny Woodhead,0,1,1,10,Down w/the Confederacaaaa!,8,SD,RB
+302,BN,Torrey Smith,0,1,1,10,Down w/the Confederacaaaa!,8,SF,WR
+303,BN,Shane Vereen,0,1,1,10,Down w/the Confederacaaaa!,8,NYG,RB
+304,IR,,0,1,1,10,Down w/the Confederacaaaa!,8,,
+305,QB,Peyton Manning,0,1,2,10,FU Roadshow Winnebago,4,Den,QB
+306,RB,DeMarco Murray,0,1,2,10,FU Roadshow Winnebago,4,Phi,RB
+307,RB,Danny Woodhead,0,1,2,10,FU Roadshow Winnebago,4,SD,RB
+308,WR,Antonio Brown,0,1,2,10,FU Roadshow Winnebago,4,Pit,WR
+309,WR,Julian Edelman,0,1,2,10,FU Roadshow Winnebago,4,NE,WR
+310,TE,Jason Witten,0,1,2,10,FU Roadshow Winnebago,4,Dal,TE
+311,FLEX,Terrance Williams,0,1,2,10,FU Roadshow Winnebago,4,Dal,WR
+312,K,Matt Prater,4,0,2,10,FU Roadshow Winnebago,4,Det,K
+313,D/ST,Patriots,10,0,2,10,FU Roadshow Winnebago,4,NE,D/ST
+314,BN,Mike Wallace,0,1,2,10,FU Roadshow Winnebago,4,Min,WR
+315,BN,Sammy Watkins,0,1,2,10,FU Roadshow Winnebago,4,Buf,WR
+316,BN,Marques Colston,0,1,2,10,FU Roadshow Winnebago,4,NO,WR
+317,BN,Ryan Mathews,0,1,2,10,FU Roadshow Winnebago,4,Phi,RB
+318,BN,Torrey Smith,0,1,2,10,FU Roadshow Winnebago,4,SF,WR
+319,BN,Shane Vereen,0,1,2,10,FU Roadshow Winnebago,4,NYG,RB
+320,IR,,0,1,2,10,FU Roadshow Winnebago,4,,
+321,QB,Drew Brees,0,1,1,11,What Would Jameis Do?,2,NO,QB
+322,RB,Carlos Hyde,0,1,1,11,What Would Jameis Do?,2,SF,RB
+323,RB,Devonta Freeman,0,1,1,11,What Would Jameis Do?,2,Atl,RB
+324,WR,Emmanuel Sanders,0,1,1,11,What Would Jameis Do?,2,Den,WR
+325,WR,Vincent Jackson,0,1,1,11,What Would Jameis Do?,2,TB,WR
+326,TE,Larry Donnell,0,1,1,11,What Would Jameis Do?,2,NYG,TE
+327,FLEX,Eric Decker,0,1,1,11,What Would Jameis Do?,2,NYJ,WR
+328,K,Cody Parkey,5,0,1,11,What Would Jameis Do?,2,Phi,K
+329,D/ST,Seahawks,16,0,1,11,What Would Jameis Do?,2,Sea,D/ST
+330,BN,Le'Veon Bell,0,1,1,11,What Would Jameis Do?,2,Pit,RB
+331,BN,C.J. Spiller,0,1,1,11,What Would Jameis Do?,2,NO,RB
+332,BN,Allen Robinson,0,1,1,11,What Would Jameis Do?,2,Jac,WR
+333,BN,Tony Romo,0,1,1,11,What Would Jameis Do?,2,Dal QB,IR
+334,BN,Tre Mason,0,1,1,11,What Would Jameis Do?,2,StL,RB
+335,BN,Brian Hoyer,0,1,1,11,What Would Jameis Do?,2,Hou,QB
+336,IR,,0,1,1,11,What Would Jameis Do?,2,,
+337,QB,Drew Brees,0,1,2,11,Down w/the Confederacaaaa!,8,NO,QB
+338,RB,Carlos Hyde,0,1,2,11,Down w/the Confederacaaaa!,8,SF,RB
+339,RB,Tre Mason,0,1,2,11,Down w/the Confederacaaaa!,8,StL,RB
+340,WR,Emmanuel Sanders,0,1,2,11,Down w/the Confederacaaaa!,8,Den,WR
+341,WR,Vincent Jackson,0,1,2,11,Down w/the Confederacaaaa!,8,TB,WR
+342,TE,Tyler Eifert,0,1,2,11,Down w/the Confederacaaaa!,8,Cin,TE
+343,FLEX,Eric Decker,0,1,2,11,Down w/the Confederacaaaa!,8,NYJ,WR
+344,K,Cody Parkey,5,0,2,11,Down w/the Confederacaaaa!,8,Phi,K
+345,D/ST,Seahawks,3,0,2,11,Down w/the Confederacaaaa!,8,Sea,D/ST
+346,BN,Le'Veon Bell,0,1,2,11,Down w/the Confederacaaaa!,8,Pit,RB
+347,BN,Larry Donnell,0,1,2,11,Down w/the Confederacaaaa!,8,NYG,TE
+348,BN,C.J. Spiller,0,1,2,11,Down w/the Confederacaaaa!,8,NO,RB
+349,BN,Allen Robinson,0,1,2,11,Down w/the Confederacaaaa!,8,Jac,WR
+350,BN,Tony Romo,0,1,2,11,Down w/the Confederacaaaa!,8,Dal QB,IR
+351,BN,Devonta Freeman,0,1,2,11,Down w/the Confederacaaaa!,8,Atl,RB
+352,IR,,0,1,2,11,Down w/the Confederacaaaa!,8,,
+353,QB,Andrew Luck,0,1,1,12,FU Roadshow Winnebago,4,Ind,QB
+354,RB,Matt Forte,0,1,1,12,FU Roadshow Winnebago,4,Chi,RB
+355,RB,Dion Lewis,0,1,1,12,FU Roadshow Winnebago,4,NE,RB
+356,WR,Calvin Johnson,0,1,1,12,FU Roadshow Winnebago,4,Det,WR
+357,WR,Anquan Boldin,0,1,1,12,FU Roadshow Winnebago,4,SF,WR
+358,TE,Jimmy Graham,0,1,1,12,FU Roadshow Winnebago,4,Sea,TE
+359,FLEX,Rueben Randle,0,1,1,12,FU Roadshow Winnebago,4,NYG,WR
+360,K,Justin Tucker,10,0,1,12,FU Roadshow Winnebago,4,Bal,K
+361,D/ST,Eagles,4,0,1,12,FU Roadshow Winnebago,4,Phi,D/ST
+362,BN,Mike Evans,0,1,1,12,FU Roadshow Winnebago,4,TB,WR
+363,BN,Christine Michael,0,1,1,12,FU Roadshow Winnebago,4,Dal,RB
+364,BN,"Dexter McCluster, Ten WR",0,1,1,12,FU Roadshow Winnebago,4,RB,RB
+365,BN,Eddie Royal,0,1,1,12,FU Roadshow Winnebago,4,Chi,WR
+366,BN,Kyle Rudolph,0,1,1,12,FU Roadshow Winnebago,4,Min,TE
+367,BN,Doug Baldwin,0,1,1,12,FU Roadshow Winnebago,4,Sea,WR
+368,IR,,0,1,1,12,FU Roadshow Winnebago,4,,
+369,QB,Andrew Luck,0,1,2,12,What Would Jameis Do?,2,Ind,QB
+370,RB,Matt Forte,0,1,2,12,What Would Jameis Do?,2,Chi,RB
+371,RB,Dion Lewis,0,1,2,12,What Would Jameis Do?,2,NE,RB
+372,WR,Calvin Johnson,0,1,2,12,What Would Jameis Do?,2,Det,WR
+373,WR,Mike Evans,0,1,2,12,What Would Jameis Do?,2,TB,WR
+374,TE,Jimmy Graham,0,1,2,12,What Would Jameis Do?,2,Sea,TE
+375,FLEX,Rueben Randle,0,1,2,12,What Would Jameis Do?,2,NYG,WR
+376,K,Justin Tucker,15,0,2,12,What Would Jameis Do?,2,Bal,K
+377,D/ST,Eagles,7,0,2,12,What Would Jameis Do?,2,Phi,D/ST
+378,BN,Christine Michael,0,1,2,12,What Would Jameis Do?,2,Dal,RB
+379,BN,"Dexter McCluster, Ten WR",0,1,2,12,What Would Jameis Do?,2,RB,RB
+380,BN,Anquan Boldin,0,1,2,12,What Would Jameis Do?,2,SF,WR
+381,BN,Eddie Royal,0,1,2,12,What Would Jameis Do?,2,Chi,WR
+382,BN,Kyle Rudolph,0,1,2,12,What Would Jameis Do?,2,Min,TE
+383,BN,Doug Baldwin,0,1,2,12,What Would Jameis Do?,2,Sea,WR
+384,IR,,0,1,2,12,What Would Jameis Do?,2,,

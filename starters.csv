@@ -1,0 +1,160 @@
+"","team","NFLPos","Player","TotPts"
+"1",1,"RB","Jamaal Charles",54
+"2",1,"QB","Philip Rivers",42
+"3",1,"K","Brandon McManus",34
+"4",1,"RB","Alfred Morris",19
+"5",1,"WR","Kendall Wright",17
+"6",1,"TE","Martellus Bennett",16
+"7",1,"WR","Markus Wheaton",14
+"8",1,"D/ST","Texans",12
+"9",1,"RB","Andre Ellington",10
+"10",1,"RB","Tevin Coleman",9
+"11",1,"WR","Alshon Jeffery",7
+"12",1,"RB","Duke Johnson Jr.",3
+"13",1,"WR","Breshad Perriman",0
+"14",2,"WR","Randall Cobb",48
+"15",2,"QB","Eli Manning",45
+"16",2,"RB","Latavius Murray",41
+"17",2,"WR","Jordan Matthews",28
+"18",2,"RB","LeSean McCoy",26
+"19",2,"RB","Darren Sproles",16
+"20",2,"K","Robbie Gould",14
+"21",2,"TE","Jordan Reed",9
+"22",2,"RB","Jonathan Stewart",7
+"23",2,"D/ST","Saints",6
+"24",2,"K","Kyle Brindza",2
+"25",2,"TE","Owen Daniels",1
+"26",2,"","",0
+"27",2,"WR","DeSean Jackson",0
+"28",2,"D/ST","Falcons",0
+"29",2,"D/ST","Buccaneers",-3
+"30",3,"QB","Ben Roethlisberger",48
+"31",3,"WR","Brandon Marshall",42
+"32",3,"K","Stephen Gostkowski",40
+"33",3,"TE","Travis Kelce",37
+"34",3,"WR","Jarvis Landry",31
+"35",3,"QB","Cam Newton",29
+"36",3,"RB","T.J. Yeldon",17
+"37",3,"D/ST","Ravens",16
+"38",3,"RB","Justin Forsett",14
+"39",3,"WR","Brandin Cooks",10
+"40",3,"RB","C.J. Anderson",1
+"41",3,"","",0
+"42",4,"QB","Carson Palmer",64
+"43",4,"WR","A.J. Green",50
+"44",4,"RB","Adrian Peterson",45
+"45",4,"RB","DeAngelo Williams",38
+"46",4,"K","Steven Hauschka",34
+"47",4,"WR","Demaryius Thomas",30
+"48",4,"RB","Chris Johnson",27
+"49",4,"WR","Donte Moncrief",27
+"50",4,"TE","Charles Clay",11
+"51",4,"WR","Dez Bryant",4
+"52",4,"","",0
+"53",4,"D/ST","Browns",-1
+"54",4,"D/ST","Titans",-2
+"55",5,"WR","Larry Fitzgerald",62
+"56",5,"TE","Rob Gronkowski",54
+"57",5,"QB","Russell Wilson",51
+"58",5,"RB","Ameer Abdullah",24
+"59",5,"RB","Eddie Lacy",23
+"60",5,"K","Dan Bailey",21
+"61",5,"WR","John Brown",10
+"62",5,"WR","Davante Adams",8
+"63",5,"D/ST","Dolphins",7
+"64",5,"WR","Andre Johnson",2
+"65",5,"RB","Matt Jones",1
+"66",5,"","",0
+"67",6,"WR","Julio Jones",67
+"68",6,"QB","Matt Ryan",55
+"69",6,"RB","Frank Gore",26
+"70",6,"K","Greg Zuerlein",23
+"71",6,"RB","Jeremy Hill",19
+"72",6,"TE","Delanie Walker",16
+"73",6,"WR","Amari Cooper",15
+"74",6,"RB","Doug Martin",12
+"75",6,"TE","Heath Miller",9
+"76",6,"WR","James Jones",8
+"77",6,"WR","Travis Benjamin",8
+"78",6,"D/ST","Panthers",4
+"79",6,"D/ST","Packers",3
+"80",6,"D/ST","Jets",2
+"81",6,"TE","Julius Thomas",0
+"82",7,"QB","Tom Brady",77
+"83",7,"D/ST","Cardinals",49
+"84",7,"WR","DeAndre Hopkins",44
+"85",7,"WR","Odell Beckham Jr.",37
+"86",7,"K","Mason Crosby",32
+"87",7,"RB","Melvin Gordon",18
+"88",7,"WR","Roddy White",8
+"89",7,"TE","Zach Ertz",8
+"90",7,"RB","Giovani Bernard",7
+"91",7,"RB","C.J. Anderson",5
+"92",7,"RB","David Johnson",3
+"93",7,"WR","Brandon LaFell",0
+"94",8,"D/ST","Broncos",36
+"95",8,"RB","Mark Ingram",35
+"96",8,"TE","Greg Olsen",33
+"97",8,"K","Matt Bryant",31
+"98",8,"WR","Jeremy Maclin",30
+"99",8,"QB","Joe Flacco",20
+"100",8,"QB","Sam Bradford",19
+"101",8,"D/ST","Jets",17
+"102",8,"WR","Golden Tate",15
+"103",8,"RB","Rashad Jennings",13
+"104",8,"RB","Lamar Miller",10
+"105",8,"RB","Bishop Sankey",4
+"106",8,"RB","Isaiah Crowell",3
+"107",8,"","",0
+"108",8,"WR","Victor Cruz",0
+"109",9,"QB","Aaron Rodgers",77
+"110",9,"RB","Joseph Randle",43
+"111",9,"WR","Keenan Allen",40
+"112",9,"RB","Chris Ivory",26
+"113",9,"D/ST","Rams",24
+"114",9,"RB","Marshawn Lynch",19
+"115",9,"WR","T.Y. Hilton",17
+"116",9,"TE","Jordan Cameron",14
+"117",9,"K","Adam Vinatieri",4
+"118",9,"","",0
+"119",9,"TE","Austin Seferian Jenkins",0
+"120",9,"WR","Michael Floyd",0
+"121",10,"WR","Antonio Brown",56
+"122",10,"QB","Peyton Manning",43
+"123",10,"WR","Julian Edelman",39
+"124",10,"TE","Jason Witten",29
+"125",10,"D/ST","Patriots",20
+"126",10,"WR","Terrance Williams",20
+"127",10,"RB","DeMarco Murray",18
+"128",10,"RB","Danny Woodhead",13
+"129",10,"K","Matt Prater",8
+"130",10,"RB","Ryan Mathews",8
+"131",10,"RB","Shane Vereen",2
+"132",10,"","",0
+"133",11,"RB","Carlos Hyde",40
+"134",11,"RB","Devonta Freeman",40
+"135",11,"D/ST","Seahawks",37
+"136",11,"WR","Emmanuel Sanders",34
+"137",11,"QB","Drew Brees",28
+"138",11,"WR","Eric Decker",24
+"139",11,"WR","Vincent Jackson",20
+"140",11,"RB","Le'Veon Bell",19
+"141",11,"IR","Cody Parkey",16
+"142",11,"TE","Tyler Eifert",10
+"143",11,"QB","Colin Kaepernick",4
+"144",11,"TE","Larry Donnell",2
+"145",11,"RB","Tre Mason",2
+"146",11,"","",0
+"147",11,"IR","Tony Romo",0
+"148",12,"QB","Andrew Luck",41
+"149",12,"RB","Dion Lewis",40
+"150",12,"RB","Matt Forte",39
+"151",12,"K","Justin Tucker",30
+"152",12,"D/ST","Eagles",27
+"153",12,"TE","Jimmy Graham",26
+"154",12,"WR","Calvin Johnson",24
+"155",12,"WR","Mike Evans",10
+"156",12,"WR","Anquan Boldin",3
+"157",12,"WR","Doug Baldwin",3
+"158",12,"WR","Rueben Randle",2
+"159",12,"","",0
